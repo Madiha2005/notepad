@@ -1,8 +1,3 @@
-Tkinter Projects
-Tkinter is a standard GUI (Graphical User Interface) library in Python, offering tools to create interactive forms and windows for desktop applications. It simplifies form creation through widgets like buttons, input fields, and labels, aiding developers in building user-friendly interfaces.
-Project: 1
-Tkinter GUI
-Code.
 import tkinter as tk
 
 root=tk.Tk()
@@ -53,7 +48,7 @@ anotherbtn.place(x=200, height=100,width=100)
 
 
 root.mainloop()
-xxxCode finishxxx
+
 Project:2
 Data Entery Form:
 Code.
@@ -107,56 +102,6 @@ age_label.grid(row=2, column=0)
 age_spinbox.grid(row=3,column=0)
 
 
-nationality_label = tkinter.Label(user_info_frame, text="Nationality")
-nationality_combobox = ttk.Combobox(user_info_frame, values=["Africa","Antarctica","Asia","Europe","North America","Oceania","South America"])
-nationality_label.grid(row=3,column=1)
-nationality_combobox.grid(row=3,column=1)
-
-for widget in user_info_frame.winfo_children():
-    widget.grid_configure(padx=10, pady=5)
-
-# Saving Course Info
-courses_frame = tkinter.LabelFrame(frame)
-courses_frame.grid(row=1,column=0, sticky="new",padx=20, pady=10)
-
-registered_label = tkinter.Label(courses_frame,text="Registration Status")
-registered_check = tkinter.Checkbutton(courses_frame,text="Currently Registered")
-registered_label.grid(row=0, column=0)
-registered_check.grid(row=1, column=0)
-
-numcourses_label = tkinter.Label(courses_frame,text="#Completed Courses")
-numcourses_spinbox = tkinter.Spinbox(courses_frame,from_=0,to= "infinity" )
-numcourses_label.grid(row=0, column=1)
-numcourses_spinbox.grid(row=1, column=1)
-
-numsemesters_label = tkinter.Label(courses_frame,text="#Completed Semesters")
-numsemesters_spinbox = tkinter.Spinbox(courses_frame,from_=0,to= "infinity" )
-numsemesters_label.grid(row=0, column=2 )
-numsemesters_spinbox.grid(row=1, column=2)
-
-for widget in courses_frame.winfo_children():
-    widget.grid_configure(padx=10, pady=5)
-
-#Accept terms
-#terms_frame = tkinter.Label(frame, text="Terms & Conditions")
-#terms_frame.grid(row=0, column=0, sticky="new",padx=20, pady=10)
-
-#terms_check = tkinter.Checkbutton(terms_frame,text="I accept the terms & conditions.")
-#terms_check.grid(row=0,column=0)
-
-#Button
-button = tkinter.Button(frame,text= "Enter data",command= enter_data)
-button.grid(row=3, column=0, sticky="new",padx=20, pady=10)
-
-
-
-window.mainloop()
-xxxCode finishxxxx
-
-Regards 
-Madiha Atta
-Cohort 9
-Python Development
 
 
  
