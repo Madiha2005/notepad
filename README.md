@@ -1,0 +1,2 @@
+# notepad
+code of notepad
